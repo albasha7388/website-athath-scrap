@@ -335,7 +335,7 @@ function handleServiceRequest(serviceName) {
  * Phone Call Handler
  */
 function makePhoneCall() {
-    window.location.href = 'tel:+0577589538';
+    window.location.href = 'tel:0577589538';
 }
 
 /**
