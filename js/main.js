@@ -223,7 +223,7 @@ function initContactForm() {
             `${message ? 'الرسالة: ' + message : ''}`;
 
         // Open WhatsApp
-        const whatsappUrl = `https://wa.me/966501234567?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappUrl = `https://wa.me/577589538?text=${encodeURIComponent(whatsappMessage)}`;
         window.open(whatsappUrl, '_blank');
 
         // Reset form
@@ -327,7 +327,7 @@ function initLazyLoading() {
  */
 function handleServiceRequest(serviceName) {
     const whatsappMessage = `مرحباً، أرغب في الاستفسار عن خدمة: ${serviceName}`;
-    const whatsappUrl = `https://wa.me/966501234567?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/577589538?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 }
 
@@ -335,7 +335,7 @@ function handleServiceRequest(serviceName) {
  * Phone Call Handler
  */
 function makePhoneCall() {
-    window.location.href = 'tel:+966501234567';
+    window.location.href = 'tel:+577589538';
 }
 
 /**
