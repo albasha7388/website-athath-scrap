@@ -35,6 +35,26 @@
 <script type="application/ld+json">
     {"@context": "https://schema.org", "@type": "Service", "name": "شراء ثلاجات وغسالات مستعملة", "description": "نشتري جميع الأجهزة الكهربائية المنزلية المستعملة", "provider": {"@type": "LocalBusiness", "name": "شركة أبو أحمد", "address": {"@type": "PostalAddress", "addressLocality": "المدينة المنورة", "addressCountry": "SA"}}, "areaServed": "المدينة المنورة", "serviceType": "شراء أجهزة كهربائية مستعملة"}
     </script>
+
+    <!-- Event snippet for انقر للاتصال conversion -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18009185354/zgB2CPHf768cEMq4uYtD',
+      'value': 1.0,
+      'currency': 'SAR',
+      'event_callback': callback
+  });
+
+  return false;
+}
+</script>
 </head>
 <body>
 <header class="header">
@@ -95,8 +115,10 @@
 <h3>هل تريد بيع أجهزتك الكهربائية؟</h3>
 <p>اتصل بنا الآن للحصول على عرض سعر فوري في المدينة المنورة</p>
 <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-<a class="btn btn-whatsapp" href="https://wa.me/0577589538" target="_blank"><i class="fab fa-whatsapp"></i><span>تواصل عبر واتساب</span></a>
-<a class="btn btn-primary" href="tel:0577589538"><i class="fas fa-phone"></i><span>اتصل الآن</span></a>
+<a class="btn btn-whatsapp" href="https://wa.me/966577589538"
+target="_blank"
+onclick="return gtag_report_conversion('https://wa.me/966577589538');"><i class="fab fa-whatsapp"></i><span>تواصل عبر واتساب</span></a>
+<a class="btn btn-primary" href="tel:0577589538"  onclick="return gtag_report_conversion('tel:0577589538');"><i class="fas fa-phone"></i><span>اتصل الآن</span></a>
 </div>
 </div>
 </div>
@@ -146,8 +168,13 @@
 <h2 class="cta-title">هل تريد بيع أجهزتك الكهربائية؟</h2>
 <p class="cta-description">تواصل معنا الآن للحصول على أفضل عرض سعر في المدينة المنورة</p>
 <div class="cta-buttons">
-<a class="btn btn-secondary btn-large" href="https://wa.me/0577589538" target="_blank"><i class="fab fa-whatsapp"></i><span>تواصل عبر واتساب</span></a>
-<a class="btn btn-primary btn-large" href="tel:0577589538"><i class="fas fa-phone"></i><span>اتصل الآن</span></a>
+<a class="btn btn-secondary btn-large" href="https://wa.me/966577589538"
+target="_blank"
+onclick="return gtag_report_conversion('https://wa.me/966577589538');"><i class="fab fa-whatsapp"></i><span>تواصل عبر واتساب</span></a>
+<a class="btn btn-primary btn-large"
+href="tel:0577589538"
+onclick="return gtag_report_conversion('tel:0577589538');">
+</a><i class="fas fa-phone"></i><span>اتصل الآن</span></a>
 </div>
 </div>
 </div>
@@ -164,8 +191,10 @@
 </div>
 <p class="footer-description">شركة أبو أحمد متخصصة في شراء الأثاث المستعمل والأجهزة الكهربائية في المدينة المنورة.</p>
 <div class="contact-social">
-<a class="social-link" href="https://wa.me/0577589538" target="_blank"><i class="fab fa-whatsapp"></i></a>
-<a class="social-link" href="tel:0577589538"><i class="fas fa-phone"></i></a>
+<a class="social-link" href="https://wa.me/966577589538"
+target="_blank"
+onclick="return gtag_report_conversion('https://wa.me/966577589538');"><i class="fab fa-whatsapp"></i></a>
+<a class="social-link" href="tel:0577589538"  onclick="return gtag_report_conversion('tel:0577589538');"><i class="fas fa-phone"></i></a>
 </div>
 </div>
 <div>
@@ -203,7 +232,9 @@
 </div>
 </footer>
 <div class="floating-buttons">
-<a class="floating-btn whatsapp" href="https://wa.me/0577589538" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<a class="floating-btn whatsapp" href="https://wa.me/966577589538"
+target="_blank"
+onclick="return gtag_report_conversion('https://wa.me/966577589538');"><i class="fab fa-whatsapp"></i></a>
 <a class="floating-btn phone" href="tel:0577589538"><i class="fas fa-phone"></i></a>
 </div>
 <script src="../js/main.js"></script>
